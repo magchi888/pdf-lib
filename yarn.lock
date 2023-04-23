@@ -622,6 +622,12 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
+"@pdf-lib/fontkit@https://github.com/magchi888/pdf-fontkit.git":
+  version "1.8.9"
+  resolved "https://github.com/magchi888/pdf-fontkit.git#e03fe98bfbbabeb161a3a04eac74f9b09bbf0ed2"
+  dependencies:
+    pako "^1.0.6"
+
 "@pdf-lib/standard-fonts@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@pdf-lib/standard-fonts/-/standard-fonts-1.0.0.tgz#8ba691c4421f71662ed07c9a0294b44528af2d7f"
@@ -3214,12 +3220,6 @@ path-parse@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
   integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
-
-"pdf-fontkit@https://github.com/magchi888/pdf-fontkit.git":
-  version "1.8.9"
-  resolved "https://github.com/magchi888/pdf-fontkit.git#e03fe98bfbbabeb161a3a04eac74f9b09bbf0ed2"
-  dependencies:
-    pako "^1.0.6"
 
 performance-now@^2.1.0:
   version "2.1.0"
